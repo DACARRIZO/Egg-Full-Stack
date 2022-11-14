@@ -21,7 +21,6 @@ public class ServiciosMatematica {
    
 
     public Matematica DevolverMayor(Matematica mt) {
-        DecimalFormat df = new DecimalFormat("###.##");
         mt.setMayor(Math.max(mt.getNum1(),mt.getNum2()));
         mt.setMenor(Math.min(mt.getNum1(), mt.getNum2()));
         System.out.println("El numero mayor es: "+mt.getMayor());
@@ -33,10 +32,9 @@ public class ServiciosMatematica {
     public void CalcPot(Matematica mt) {
         //double base=mt.getMayor();
         //double pot=mt.getMenor();
-        DecimalFormat df = new DecimalFormat("###.##");
         double base = Math.round(mt.getMayor());
         double pot = Math.round(mt.getMenor());
-        System.out.println(base + pot);
+       
         
         if (mt.getMayor()> mt.getMenor()) {
             double pot1 = Math.pow(base,pot);
