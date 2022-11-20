@@ -3,12 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejercicio_5_poo;
+package ejercicio_11_poo;
 
 /**
  *
  * @author dacar
  */
-class cuenta {
+public class Ejercicio_11_POO {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
     
 }

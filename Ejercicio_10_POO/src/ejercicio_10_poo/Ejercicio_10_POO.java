@@ -31,7 +31,7 @@ public class Ejercicio_10_POO {
     public static void llenadoArreglos(double arregloA[]){
         System.out.println("Se llena el arreglo A");
         for (int i = 0; i < 50; i++) {
-            arregloA[i]=Math.random()*100;
+            arregloA[i]=Math.round(Math.random()*100);
             
         }
       
