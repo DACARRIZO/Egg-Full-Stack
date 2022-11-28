@@ -34,11 +34,18 @@ Recordar que la clase String y Math están explicadas en la guía anterior de In
 **/
 package ejercicio_07_poo;
 
+import Entidades.Personas;
+import ServiciosPersonas.ServiciosPersonas;
+
 public class Ejercicio_07_POO {
 
     public static void main(String[] args) {
+        ServiciosPersonas sp=new ServiciosPersonas();
+        Personas pr=sp.crearPersona();
         
-       
+       sp.crearPersona();
+       sp.mayorEdad(pr);
+       sp.calcularIMC(pr);
         
         
     }

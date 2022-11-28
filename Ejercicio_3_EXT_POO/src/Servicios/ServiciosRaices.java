@@ -27,7 +27,7 @@ discriminante tiene la siguiente formula: (b^2)-4*a*c
    /*  Método tieneRaices(): devuelve un booleano indicando si tiene dos soluciones, para
 que esto ocurra, el discriminante debe ser mayor o igual que 0.
 */
-   public void tieneRaices(Raices numeros){
+   public boolean tieneRaices(Raices numeros){
        boolean raices=false;
        double a=numeros.getA()%2;
        double b=numeros.getB()%2;
@@ -37,5 +37,9 @@ que esto ocurra, el discriminante debe ser mayor o igual que 0.
            raices=true;
        }else
            System.out.println("Uno de los numeros no tiene raices");
+       return raices;
+   }
+   public void obtenerRaices(Raices numeros){
+       
    }
 }
