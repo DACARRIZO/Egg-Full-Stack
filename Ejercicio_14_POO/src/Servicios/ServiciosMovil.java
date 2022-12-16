@@ -33,7 +33,7 @@ public class ServiciosMovil {
             aux[i]=Integer.parseInt(cade.substring(i, i+1));
         }
         mv.setCodigo(aux);
-        System.out.println("El codigo ingresado es: "+ mv.getCodigo());
+        System.out.println("El codigo ingresado es: "+ id);
 
     }
 
